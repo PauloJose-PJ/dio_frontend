@@ -17,5 +17,4 @@ Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais f�
 - [Wikipedia](https://pt.wikipedia.org/)
 
 ## Gif do segundo site puro HTML
-https://github.com/user-attachments/assets/489ca5c2-25e0-46cb-8696-08653d92d17a
-
+https://github.com/user-attachments/assets/e5cb46ed-e623-402e-8385-9e78e12b4b61
