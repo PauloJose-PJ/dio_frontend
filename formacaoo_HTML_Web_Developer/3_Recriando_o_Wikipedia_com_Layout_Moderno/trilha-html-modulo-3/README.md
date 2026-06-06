@@ -16,4 +16,6 @@ Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais f�
 - [Download do NVDA](https://www.nvaccess.org/download/)
 - [Wikipedia](https://pt.wikipedia.org/)
 
+## Gif do segundo site puro HTML
+https://github.com/user-attachments/assets/489ca5c2-25e0-46cb-8696-08653d92d17a
 
