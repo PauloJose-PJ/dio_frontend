@@ -80,3 +80,8 @@ No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** d
 Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site!
 
 Bora pra cima!
+
+### Gif do segundo site puro HTML
+
+https://github.com/user-attachments/assets/772b296e-6e1b-4c1b-84c7-14411d238ce9
+
