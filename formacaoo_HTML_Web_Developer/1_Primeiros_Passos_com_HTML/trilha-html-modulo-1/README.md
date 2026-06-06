@@ -17,3 +17,9 @@ Este desafio vai fazer com que tenha dúvidas, o que é ótimo! Aos poucos você
 Após concluído este desafio! Siga para o <strong>Módulo II - Conceitos Básicos.</strong>
 
 Nos vemos lá!
+
+## gifs do primeiro site só com HTML
+https://github.com/user-attachments/assets/76ec9623-094c-4c99-a93f-a2ea02a0ec33
+
+
+
