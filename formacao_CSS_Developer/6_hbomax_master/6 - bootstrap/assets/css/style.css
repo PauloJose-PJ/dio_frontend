@@ -2,14 +2,17 @@
 /* --------------- HEADER --------------- */
 header {
     font-family: "Raleway";
-}
-header p {
-    font-weight: 100;
+    margin-top: 10rem !important;
 }
 header, h1 {
     font-weight:bolder;
     font-size: 46px;
 }
+
+header p {
+    font-weight: 100;
+}
+
 header .container {
     width: 75%;
 }
@@ -52,15 +55,19 @@ header .container .preco {
 #planos {
     background: url(../images/background-movies-series.png) no-repeat;
     background-size: cover;
-    position: relative;
-    margin: 10rem auto 0 auto;
+    justify-content: center;
+    margin: 0 auto;
     padding: 24px;
     text-align: center;
+}
+#planos h1 {
+    margin: 0 auto;
 }
 
 .conheca, .text_descubre {
     max-width: 80rem;
-    margin: 0 auto;
+    margin: 12rem auto 0 auto !important;
+    padding: 2rem;
     font-size: 2rem;
     font-weight: 500;
 }
@@ -73,7 +80,6 @@ header .container .preco {
     perspective-origin: top;
     display: flex;
     flex-wrap: wrap;
-    background-image: url(../images/background-movies-series.png);
     background-size: cover;
 }
 .planosCard {
@@ -138,9 +144,6 @@ div.card ul li {
 /* ---------------------------- */
 .container-fluid-desktop {
     margin: 0 auto;
-    width: 100%;
-    background: #ff00e5;
-
 }
 article.containerIMG {
     display: flex;
@@ -154,6 +157,11 @@ article.containerIMG {
 
 
 @media (min-width: 320px) {
+nav {
+    justify-content: space-around!important;
+    gap: 1rem;
+}
+
 div.card {
     width: 100%;
     padding: 1.2rem;
@@ -165,7 +173,7 @@ div.card button {
     width: 90%;
 }
 .card_primeiro button {
-    margin-top: 8rem;
+    margin-top: 2rem;
 }
 
 div.planolist ul li {
@@ -177,7 +185,6 @@ div.planolist ul {
 }
 
 header {
-    margin-top: 10rem;
     font-family: "Raleway";
 }
 #planos {
@@ -186,6 +193,8 @@ header {
 .container-fluid-desktop {
     display: none;
 }
+article .container-fluid-desktop {
+    padding: 8rem;
 }
 .containerIMG {
     display: none;
@@ -194,39 +203,31 @@ header {
 div.container-fluid-mobile {
     width: 8rem;
 }
-section.container-fluid-mobile h1 {
-    width: 18rem;
-}
 
 div.containerIMG {
-    margin-top: 10rem;
-    width: 10rem;
+    display: flex;;
+    width: 19rem;
     overflow-x: auto;
     white-space: nowrap;
 }
 article.containerIMG {
     display: inline-block;
 }
-div.containerIMG {
-    display: flex;
-    width: 21rem;
-    margin: .6rem;
-}
 .containerIMG img {
-    width: 17rem;
-    height: 24rem;
+    width: 18rem;
+    height: 26rem;
     margin: 1rem;
 }
 
-div footer {
-    margin:6rem;
-}
 .container a{
     display: block;
     margin-bottom: 10px;
 }
-footer {
+
+footer.footer {
     margin-top: 8rem;
+    padding: 1rem;
+}
 }
 
     
@@ -235,12 +236,11 @@ footer {
     padding: 0px;
 }
 .container-fluid-mobile {
-    width: 25rem;
+    width: 22rem;
 }
 
-.containerIMG {
+div.containerIMG {
     width: 22rem;
-    margin: .6rem;
 }
 .containerIMG img {
     width: 26rem;
@@ -272,9 +272,8 @@ footer.footer {
     width: 26rem;
 }
 
-.containerIMG {
-    width: 28rem;
-    margin: .6rem;
+div.containerIMG {
+    width: 25rem;
 }
 article.containerIMG img {
     width: 28rem;
@@ -286,18 +285,8 @@ article.containerIMG img {
 }
 
 div.card {
-    max-width: 600px;
+    max-width: 550px;
     padding: 1.2rem;
-}
-div.card ul li {
-    font-size: 16px;
-    }
-div.card button {
-    width: 90%;
-}
-div.card ul li {
-    font-size: 1.3rem;
-    font-weight: 400;
 }
 div.card button {
     width: 90%;
@@ -310,13 +299,13 @@ div.card ul li {
 
 
 @media (min-width: 768px) {
-div.containerIMG img {
-    width: 18rem;
-    height: 26rem;
-    gap: 10px;
+nav {
+    justify-content: space-between!important;
+    gap: 1rem;
 }
-.containerPlanos {
-    gap: 40px;
+div.containerIMG img {
+    width: 20rem;
+    height: 28rem;
 }
 
 div.containerIMG {
@@ -324,7 +313,6 @@ div.containerIMG {
     flex-wrap: wrap;
     justify-content: center;
     width: 46rem;
-    gap: 20px;
 }
 .containerPlanos {
     margin: 0 auto;
@@ -343,10 +331,16 @@ div.containerIMG {
     font-size: 1rem;
     gap: .2rem;
 }
-
+.container-fluid-mobile {
+    display: none;
+}
+.container-fluid-desktop {
+    display: block;
+}
 div.card p{
     font-size: 2rem;
 }
+
 }
 
 @media (min-width: 1024px) {
@@ -356,16 +350,16 @@ div.card p{
     justify-content: space-between;
     width: 100%;
 }
-.containerIMG {
-    width: 40rem;
+
+div.containerIMG {
+    width: 60rem;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .containerIMG img {
-    width: 18rem;
-    height: 26rem;
-    gap: 10px;
+    width: 18rem !important;
 }
 .containerIMG img:hover {
     width: 18rem;
@@ -375,19 +369,23 @@ div.card p{
 
 @media (min-width: 1440px) {
     /* --------------- FILMES --------------- */
+.card_primeiro button {
+    margin-top: 8rem;
+}
+
 div.containerIMG {
+    width: 76rem;
+    height: 72rem;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    width: 1232px;
-    gap: 40px;
+    justify-content: center;
 }
-div.containerIMG img {
-    width: 20rem;
-    height: 30rem;
+.containerIMG img {
+    width: 23rem !important;
+    height: 33rem !important;
 }
 .containerIMG img:hover {
-    width: 23rem;
-    margin: 0rem 1rem 1rem ;
+    width: 18rem;
 }
 }

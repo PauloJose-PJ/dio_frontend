@@ -7029,7 +7029,7 @@ textarea.form-control-lg {
 
 .fixed-top {
   position: fixed;
-  top: 0;
+  top: 110px;
   right: 0;
   left: 0;
   z-index: 1030;
